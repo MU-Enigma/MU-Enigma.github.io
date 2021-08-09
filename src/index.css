@@ -2,3 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  @variants hover{
+    .text-accent {
+      color: #20AD46;
+    }
+  }
+}

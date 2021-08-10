@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between items-center px-8 py-5" :class="{'sticky -top-1': !overflow}">
+  <header class="flex justify-between items-center px-8 py-5" :class="{'sticky -top-1 backdrop-filter backdrop-blur nav-scroll-bg': !overflow, 'fixed w-screen': overflow}">
     <img src="./assets/enigma.svg" class="lg:w-auto w-6 select-none" />
     <ul class="lg:flex hidden gap-6">
       <a href="index.html" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': home}"><li>Home</li></a>
@@ -12,7 +12,7 @@
     <span class="material-icons lg:hidden" @click="overflow = true" v-if="!overflow">menu</span>
     <span class="material-icons lg:hidden" @click="overflow = false" v-else>close</span>
   </header>
-  <div class="flex justify-center items-center absolute over-flow w-screen text-center" v-if="overflow">
+  <div class="flex justify-center items-center fixed over-flow backdrop-filter backdrop-blur w-screen text-center" v-if="overflow">
     <div class="">
       <ul class="flex flex-col gap-12">
       <a href="index.html" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': home}"><li>Home</li></a>
@@ -51,7 +51,9 @@ header {
   background: rgba(0, 0, 0, 0.40);
   margin-top: 64px;
   height: calc(100vh - 64px);
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+}
+
+.nav-scroll-bg {
+  background: rgba(11, 17, 31, 0.64);
 }
 </style>

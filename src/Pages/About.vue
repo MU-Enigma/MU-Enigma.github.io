@@ -58,8 +58,8 @@
 </template>
 
 <script setup>
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
+import Header from '../components/Header.vue'
+import Footer from '../components/Footer.vue'
 </script>
 
 <style>
@@ -69,6 +69,27 @@ import Footer from './components/Footer.vue'
 body {
   background:#1F2937;
   margin: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 16px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #32393F; 
+  border-radius: 16px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3B4248; 
 }
 
 #about {

@@ -22,5 +22,6 @@ import Social from './Social.vue'
 <style>
 footer {
   background: #111827;
+  font-family: 'Roboto Mono', monospace;
 }
 </style>

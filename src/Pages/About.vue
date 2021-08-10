@@ -1,11 +1,11 @@
 <template>
-  <Header :about="true" />
+  <Header :about="true" class="font-mono" />
   <div class="my-20 ml-10 lg:ml-44 mr-10 lg:mr-44">
-    <h1 class="text-accent font-bold text-3xl">About</h1>
+    <h1 class="text-accent font-bold text-4xl  uppercase">About</h1>
     <div class="flex flex-col gap-14">
       <div class="flex flex-col gap-6 mt-4">
         <h2 class="text-2xl">Know us</h2>
-        <h2 class="flex flex-col gap-4 font-thin">
+        <h2 class="flex flex-col gap-4 font-thin text-justify">
           <span>The Computer Science Club at <a href="https://www.mahindraecolecentrale.edu.in/" class="underline">Mahindra University</a> is a student-run organization affiliated 
             with the Computer Science and Engineering Department. It provides learning, networking and career 
             opportunities to the members of Enigma.</span>
@@ -15,7 +15,7 @@
             working with tech. Community events include study breaks, social outings and meet and greets between 
             different classes. We also provide many professional resources for members including company-sponsored 
             informational and networking events, resume review and algorithm challenge sessions, study breaks, 
-            social outings, and tech workshops. Two of our most popular initiatives are WeeklySessions and HackWeek. 
+            social outings, and tech workshops. Two of our most popular initiatives are Weekly Sessions and HackWeek. 
             No membership fee or annual dues.</span>
 
           <span>Our club faculty advisor is <a href="https://www.mahindraecolecentrale.edu.in/faculty/88/Prafulla-Kalapatapu.html" class="underline">Prof. Prafulla Kalapatapu</a>.</span>
@@ -24,7 +24,7 @@
 
       <div class="flex flex-col gap-6 mt-4">
         <h2 class="text-2xl">Our mission</h2>
-        <h2 class="flex flex-col gap-4 font-thin">
+        <h2 class="flex flex-col gap-4 font-thin text-justify">
           <span>Our mission is to create a community of mentors and friends and partner with companies to provide 
             the best resources for students to explore computer science and software. We hope you’ll join us during 
             the school year and join our community! If you want to learn more, feel free to message this year’s 
@@ -42,7 +42,7 @@
 
       <div class="flex flex-col gap-6 mt-4">
         <h2 class="text-2xl">Sounds interesting?</h2>
-        <h2 class="flex flex-col gap-4 font-thin">
+        <h2 class="flex flex-col gap-4 font-thin text-justify">
           <span>We have a Discord server for general CS-related questions and discussion. If you want to reach out 
             to alumni, ask curriculum related questions, or talk about rad hackathon projects, please join! Sign up <a href="https://discord.gg/5eJwmkV" class="underline">here</a>.</span>
 
@@ -64,6 +64,7 @@ import Footer from '../components/Footer.vue'
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 body {
@@ -93,7 +94,8 @@ body {
 }
 
 #about {
-  font-family: 'Roboto Mono', monospace;
+  /* font-family: 'Roboto Mono', monospace; */
+  font-family: 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;

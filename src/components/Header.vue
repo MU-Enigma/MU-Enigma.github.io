@@ -4,7 +4,7 @@
     <ul class="lg:flex hidden gap-6">
       <a href="index.html" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': home}"><li>Home</li></a>
       <a href="about.html" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': about}"><li>About</li></a>
-      <a href="" class="hover:text-accent transition ease-in-out duration-300"><li>Blog</li></a>
+      <a href="mec-enigma.github.io/blogs" class="hover:text-accent transition ease-in-out duration-300"><li>Blog</li></a>
       <a href="projects.html" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': projects}"><li>Projects</li></a>
       <a href="events.html" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': events}"><li>Events</li></a>
       <a href="gallery.html" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': gallery}"><li>Gallery</li></a>
@@ -17,7 +17,7 @@
       <ul class="flex flex-col gap-12">
       <a href="index.html" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': home}"><li>Home</li></a>
       <a href="about.html" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': about}"><li>About</li></a>
-      <a href="" class="hover:text-accent transition ease-in-out duration-300"><li>Blog</li></a>
+      <a href="mec-enigma.github.io/blogs" class="hover:text-accent transition ease-in-out duration-300"><li>Blog</li></a>
       <a href="projects.html" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': projects}"><li>Projects</li></a>
       <a href="events.html" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': events}"><li>Events</li></a>
       <a href="gallery.html" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': gallery}"><li>Gallery</li></a>

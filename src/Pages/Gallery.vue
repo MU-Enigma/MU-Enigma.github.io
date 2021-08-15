@@ -9,7 +9,7 @@
 
           <div class="grid lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 sm:grid-cols-2 lg:gap-4 gap-6 justify-items-center">
             <div v-for="(img, index) in imgs" :key="img">
-              <img :srcset="img" class="lg:h-36 sm:h-56 cursor-pointer rounded-xl transform ease-in-out duration-200 hover:scale-90" @click="showMultiple(index)">
+              <img :srcset="img" class="lg:h-36 md:h-40 sm:h-56 w-56 cursor-pointer rounded-xl transform ease-in-out duration-200 hover:scale-90" @click="showMultiple(index)">
             </div>
           </div>
 
@@ -42,18 +42,31 @@ export default {
   data() {
       return {
         imgs: [
-          'https://github.com/AndroBuddy/TestBase/raw/img/3P6A2461.JPG',
-          'https://github.com/AndroBuddy/TestBase/raw/img/3P6A2468.JPG',
-          'https://github.com/AndroBuddy/TestBase/raw/img/3P6A2473.JPG',
-          'https://github.com/AndroBuddy/TestBase/raw/img/3P6A2485.JPG',
-          'https://github.com/AndroBuddy/TestBase/raw/img/3P6A2509.JPG',
-          'https://github.com/AndroBuddy/TestBase/raw/img/3P7A4377.JPG',
-          'https://github.com/AndroBuddy/TestBase/raw/img/3P7A4452.JPG',
-          'https://github.com/AndroBuddy/TestBase/raw/img/3P7A4493.JPG',
-          'https://github.com/AndroBuddy/TestBase/raw/img/3P7A4720.JPG',
-          'https://github.com/AndroBuddy/TestBase/raw/img/3P7A4722.JPG',
-          'https://github.com/AndroBuddy/TestBase/raw/img/3P7A4748.JPG',
-          'https://github.com/AndroBuddy/TestBase/raw/img/3P7A4717.JPG'
+          'https://github.com/AndroBuddy/TestBase/raw/img/Mozilla-Hackathon/3P6A2461.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/Mozilla-Hackathon/3P6A2468.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/Mozilla-Hackathon/3P6A2473.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/Mozilla-Hackathon/3P6A2485.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/Mozilla-Hackathon/3P6A2509.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/Mozilla-Hackathon/3P7A4377.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/Mozilla-Hackathon/3P7A4452.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/Mozilla-Hackathon/3P7A4493.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/Mozilla-Hackathon/3P7A4720.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/Mozilla-Hackathon/3P7A4722.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/Mozilla-Hackathon/3P7A4748.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/All/IMG_5769.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/All/IMG_5770.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/All/IMG_5780.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/All/IMG_9876.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/All/IMG_9885.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/All/IMG_9887.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/All/IMG_9906.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/All/IMG_9916.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/All/IMG_9943.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/All/IMG_9946.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/All/IMG_9953.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/All/IMG_9955.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/All/IMG_9963.JPG',
+          'https://github.com/AndroBuddy/TestBase/raw/img/All/IMG_9968.JPG'
         ],
         visible: false,
         index: 0

@@ -5,24 +5,23 @@
     <div class="flex flex-col gap-14">
       <div class="flex flex-col gap-6 mt-4">
         <h2 class="text-2xl">Enigma hosted events</h2>
-        <h2 class="mt-8">
+        <div class="mt-8 flex justify-center items-center z-0">
 
-          <div class="grid grid-cols-5 gap-4">
+          <div class="grid lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 sm:grid-cols-2 lg:gap-4 gap-6 justify-items-center">
             <div v-for="(img, index) in imgs" :key="img">
-              <img :srcset="img" class="h-40 cursor-pointer rounded-xl transform ease-in-out duration-200 hover:scale-90" @click="showMultiple(index)">
+              <img :srcset="img" class="lg:h-36 sm:h-56 cursor-pointer rounded-xl transform ease-in-out duration-200 hover:scale-90" @click="showMultiple(index)">
             </div>
           </div>
 
           <!-- all props & events -->
           <vue-easy-lightbox
             scrollDisabled
-            moveDisabled
             :visible="visible"
             :imgs="imgs"
             :index="index"
             @hide="handleHide"
             class="backdrop-filter backdrop-blur" />
-        </h2>
+        </div>
       </div>
     </div>
   </div>

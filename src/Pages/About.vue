@@ -10,9 +10,9 @@
             with the Computer Science and Engineering Department. It provides learning, networking and career 
             opportunities to the members of Enigma.</span>
 
-          <span>We are an organization dedicated to providing MEC students 
+          <span>We are an organization dedicated to providing MU students 
             with a tight-knit community of friends and mentors to promote and advocate computer science and 
-            working with tech. Community events include study breaks, social outings and meet and greets between 
+            working with tech. Community events include study breaks, social outings, meet and greets between 
             different classes. We also provide many professional resources for members including company-sponsored 
             informational and networking events, resume review and algorithm challenge sessions, study breaks, 
             social outings, and tech workshops. Two of our most popular initiatives are Weekly Sessions and HackWeek. 
@@ -28,13 +28,14 @@
           <span>Our mission is to create a community of mentors and friends and partner with companies to provide 
             the best resources for students to explore computer science and software. We hope you’ll join us during 
             the school year and join our community! If you want to learn more, feel free to message this year’s 
-            President - <a href="https://rochan-a.github.io/" class="underline">Rochan AV</a>, Vice-President - <a href="https://github.com/SrikerPaturi" class="underline">Srikar Paturi</a> and Secretary - Sakshi Reddy.</span>
+            President - <a href="https://github.com/SrikerPaturi" class="underline">Sriker Paturi</a>, Vice-President - <a href="https://srikar.tech" class="underline">Ananta Srikar</a>.</span>
 
           <span><h3 class="font-bold">Previous Heads:</h3>
             <ul class="list-inside list-disc">
               <li><a href="https://github.com/athishrao" class="underline">Athish Rahul Rao</a> | <a href="https://github.com/FlasHRender" class="underline">Thalatam Sainath</a> | Batch - 2015</li>
               <li><a href="https://github.com/rahulkumaran" class="underline">Rahul Arulkumaran</a> | Batch - 2016</li>
-              <li><a href="https://icecereal.github.io/" class="underline">Raghav NS</a> | Batch - 2017</li>
+              <li><a href="https://rochan-a.github.io/" class="underline">Rochan AV</a> | <a href="https://icecereal.github.io/" class="underline">Raghav NS</a> | Batch - 2017</li>
+              <!-- <li><a href="https://github.com/SrikerPaturi" class="underline">Sriker Paturi</a> | <a href="" class="underline">Sakshi R</a> | Batch - 2018</li> -->
             </ul>
           </span>
         </h2>

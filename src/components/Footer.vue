@@ -10,7 +10,7 @@
         </a>
       </li>
       <li class="text-accent">Copyright © 2021 ENIGMA CS CLUB</li>
-      <li>Made with ❤️ by Anirudh and Rahul</li>
+      <li>Made with 🖥️ by Engima</li>
       <li><Social /></li>
     </ul>
   </footer>

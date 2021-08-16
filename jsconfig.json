@@ -1,5 +1,8 @@
 {
   "include": [
-    "./src/**/*"
+    "./src/**/*",
+    "src/main.js",
+    "src/about.js",
+    "src/gallery.js"
   ]
 }

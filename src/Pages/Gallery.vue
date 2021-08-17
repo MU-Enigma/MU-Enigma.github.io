@@ -48,7 +48,7 @@ export default {
           'https://github.com/MU-Enigma/MU-Enigma.github.io/raw/master/src/assets/images/Mozilla-Hackathon/3P6A2485.JPG',
           'https://github.com/MU-Enigma/MU-Enigma.github.io/raw/master/src/assets/images/Mozilla-Hackathon/3P6A2509.JPG',
           'https://github.com/MU-Enigma/MU-Enigma.github.io/raw/master/src/assets/images/Mozilla-Hackathon/3P7A4377.JPG',
-          'https://github.com/MU-Enigma/MU-Enigma.github.io/raw/master/src/assets/images/Mozilla-Hackathon/3P7A4452.JPG',
+          'https://github.com/MU-Enigma/MU-Enigma.github.io/raw/master/src/assets/images/Mozilla-Hackathon/3P7A4453.JPG',
           'https://github.com/MU-Enigma/MU-Enigma.github.io/raw/master/src/assets/images/Mozilla-Hackathon/3P7A4493.JPG',
           'https://github.com/MU-Enigma/MU-Enigma.github.io/raw/master/src/assets/images/Mozilla-Hackathon/3P7A4720.JPG',
           'https://github.com/MU-Enigma/MU-Enigma.github.io/raw/master/src/assets/images/Mozilla-Hackathon/3P7A4722.JPG',

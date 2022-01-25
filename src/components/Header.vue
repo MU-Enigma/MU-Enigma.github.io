@@ -25,7 +25,7 @@
         <a href="/about/" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': about}"><li>About</li></a>
         <a href="/blogs" class="hover:text-accent transition ease-in-out duration-300"><li>Blog</li></a>
         <a href="/projects/" class="hover:text-accent transition ease-in-out duration-300 hidden" :class="{'text-accent': projects}"><li>Projects</li></a>
-        <a href="/events/" class="hover:text-accent transition ease-in-out duration-300 hidden" :class="{'text-accent': events}"><li>Events</li></a>
+        <a href="/events/" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': events}"><li>Events</li></a>
         <a href="/gallery/" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': gallery}"><li>Gallery</li></a>
     </ul>
     </div>

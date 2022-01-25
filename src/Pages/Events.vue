@@ -3,6 +3,14 @@
   <div class="flex flex-col gap-8 my-20 ml-10 lg:ml-44 mr-10 lg:mr-44">
     <h1 class="text-accent font-bold text-3xl">Events</h1>
     <div class="flex flex-col gap-5 mt-8">
+      <h2 class="text-accent text-2xl font-bold">Upcoming</h2>
+      <div class="flex justify-between">
+        <h3 class="w-60 font-bold lg:w-auto">Battleship week long challenge</h3>
+        <h3>Jan 29</h3>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-5 mt-8">
       <h2 class="text-2xl font-bold">2022</h2>
       <div class="flex justify-between">
         <h3 class="w-60 lg:w-auto">Google Hash Code - Introductory session</h3>

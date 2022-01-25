@@ -6,7 +6,6 @@
 - Categorise gallery
 - Image captions (Do some thinking)
 - Projects
-- Events
 - Animations (maybe)
 
 ## Setup local dev server

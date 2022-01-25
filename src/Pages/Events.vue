@@ -1,13 +1,60 @@
 <template>
   <Header :events="true" />
-  <div class="flex-grow my-20 ml-10 lg:ml-44 mr-10 lg:mr-44">
+  <div class="flex flex-col gap-8 my-20 ml-10 lg:ml-44 mr-10 lg:mr-44">
     <h1 class="text-accent font-bold text-3xl">Events</h1>
-    <div class="flex flex-col gap-14">
-      <div class="flex flex-col gap-6 mt-4">
-        <h2 class="text-2xl">Enigma</h2>
-        <h2 class="flex flex-col gap-4 font-thin">
-          [place holder]
-        </h2>
+    <div class="flex flex-col gap-5 mt-8">
+      <h2 class="text-2xl font-bold">2022</h2>
+      <div class="flex justify-between">
+        <h3 class="w-60 lg:w-auto">Google Hash Code - Introductory session</h3>
+        <h3>Jan 25</h3>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-5 mt-8">
+      <h2 class="text-2xl font-bold">2021</h2>
+      <div class="flex justify-between">
+        <h3 class="w-60 lg:w-auto">2021 Batch Orientation</h3>
+        <h3>Dec 14</h3>
+      </div>
+      <div class="flex justify-between">
+        <h3 class="w-60 lg:w-auto">Hacktoberfest 2021 Introduction</h3>
+        <h3>Oct 08</h3>
+      </div>
+      <div class="flex justify-between">
+        <h3 class="w-60 lg:w-auto">Digital Images livestream</h3>
+        <h3>Aug 21</h3>
+      </div>
+      <div class="flex justify-between">
+        <h3 class="w-60 lg:w-auto">How does WhatsApp work? livestream</h3>
+        <h3>Jul 24</h3>
+      </div>
+      <div class="flex justify-between">
+        <h3 class="w-60 lg:w-auto">Map Generation in Games livestream</h3>
+        <h3>Jul 10</h3>
+      </div>
+      <div class="flex justify-between">
+        <h3 class="w-60 lg:w-auto">Linux Introductory session</h3>
+        <h3>Feb 11</h3>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-5 mt-8">
+      <h2 class="text-2xl font-bold">2020</h2>
+      <div class="flex justify-between">
+        <h3 class="w-60 lg:w-auto">Python Mini Project</h3>
+        <h3>Dec 16</h3>
+      </div>
+      <div class="flex justify-between">
+        <h3 class="w-60 lg:w-auto">Introduction to Python</h3>
+        <h3>Nov 26</h3>
+      </div>
+      <div class="flex justify-between">
+        <h3 class="w-60 lg:w-auto">2020 Batch Orientation</h3>
+        <h3>Nov 19</h3>
+      </div>
+      <div class="flex justify-between">
+        <h3 class="w-60 lg:w-auto">Hacktoberfest 2020 Introduction</h3>
+        <h3>Oct 28</h3>
       </div>
     </div>
   </div>

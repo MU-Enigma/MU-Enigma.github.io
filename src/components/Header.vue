@@ -1,6 +1,6 @@
 <template>
   <header class="flex justify-between items-center px-8 py-5 z-40" :class="{'sticky -top-0 backdrop-filter backdrop-blur nav-scroll-bg': !overflow, 'fixed w-screen': overflow}">
-    <a href="index.html">
+    <a href="/">
       <img src="./assets/enigma.svg" class="lg:w-auto w-6 select-none" />
     </a>
     <ul class="lg:flex hidden gap-6">
@@ -8,7 +8,7 @@
       <a href="/about/" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': about}"><li>About</li></a>
       <a href="/blogs" class="hover:text-accent transition ease-in-out duration-300"><li>Blog</li></a>
       <a href="/projects/" class="hover:text-accent transition ease-in-out duration-300 hidden" :class="{'text-accent': projects}"><li>Projects</li></a>
-      <a href="/events/" class="hover:text-accent transition ease-in-out duration-300 hidden" :class="{'text-accent': events}"><li>Events</li></a>
+      <a href="/events/" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': events}"><li>Events</li></a>
       <a href="/gallery/" class="hover:text-accent transition ease-in-out duration-300" :class="{'text-accent': gallery}"><li>Gallery</li></a>
     </ul>
     <div class="block lg:hidden" @click="overflow = !overflow">

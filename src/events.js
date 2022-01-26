@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 import Events from './Pages/Events.vue'
 import './index.css'
 
-createApp(Events).mount('#events')
+createApp(Events).use(VueAxios, axios).mount('#events')

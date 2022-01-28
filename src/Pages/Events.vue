@@ -40,10 +40,10 @@ export default {
     upcoming: null
   }),
   created() {
-    this.axios.get("https://raw.githubusercontent.com/MU-Enigma/MU-Enigma.github.io/master/src/api/events.json").then((res) => {
+    this.axios.get("https://raw.githubusercontent.com/MU-Enigma/MU-Enigma.github.io/jayson/events.json").then((res) => {
       this.events = res.data
     })
-    this.axios.get("https://raw.githubusercontent.com/MU-Enigma/MU-Enigma.github.io/master/src/api/upcoming.json").then((res) => {
+    this.axios.get("https://raw.githubusercontent.com/MU-Enigma/MU-Enigma.github.io/jayson/upcoming.json").then((res) => {
       this.upcoming = res.data
     })
   }

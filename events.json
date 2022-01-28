@@ -1,0 +1,63 @@
+{
+	"ttt": {
+		"0": {
+			"event": "Google Hash Code - Introductory session",
+			"date": "Jan 25",
+			"year": "2022"
+		}
+	},
+	"tto": {
+		"0": {
+			"event": "2021 Batch Orientation",
+			"date": "Dec 14",
+			"year": "2021"
+		},
+		"1": {
+			"event": "Hacktoberfest 2021 Introduction",
+			"date": "Oct 08",
+			"year": "2021"
+		},
+		"2": {
+			"event": "Digital Images livestream",
+			"date": "Aug 21",
+			"year": "2021"
+		},
+		"3": {
+			"event": "How does WhatsApp work? livestream",
+			"date": "Jul 24",
+			"year": "2021"
+		},
+		"4": {
+			"event": "Map Generation in Games livestream",
+			"date": "Jul 10",
+			"year": "2021"
+		},
+		"5": {
+			"event": "Linux Introductory session",
+			"date": "Feb 11",
+			"year": "2021"
+		}
+	},
+	"tt": {
+		"0": {
+			"event": "Python Mini Project",
+			"date": "Dec 16",
+			"year": "2020"
+		},
+		"1": {
+			"event": "Introduction to Python",
+			"date": "Nov 26",
+			"year": "2020"
+		},
+		"2": {
+			"event": "2020 Batch Orientation",
+			"date": "Nov 19",
+			"year": "2020"
+		},
+		"3": {
+			"event": "Hacktoberfest 2020 Introduction",
+			"date": "Oct 28",
+			"year": "2020"
+		}
+	}
+}

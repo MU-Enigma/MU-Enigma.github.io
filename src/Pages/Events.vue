@@ -6,7 +6,7 @@
     <div class="flex flex-col gap-5 mt-8">
       <h2 class="text-accent text-2xl font-bold">Upcoming</h2>
       <div class="flex justify-between">
-        <h3 class="w-60 font-bold lg:w-auto">{{upcoming.event}}</h3>
+        <a href="https://mu-enigma.github.io/battleship/"><h3 class="w-60 font-bold lg:w-auto">{{upcoming.event}}</h3></a>
         <h3>{{upcoming.date}}</h3>
       </div>
     </div>

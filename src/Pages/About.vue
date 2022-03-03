@@ -28,13 +28,14 @@
           <span>Our mission is to create a community of mentors and friends and partner with companies to provide 
             the best resources for students to explore computer science and software. We hope you’ll join us during 
             the school year and join our community! If you want to learn more, feel free to message this year’s 
-            President - <a href="https://github.com/SrikerPaturi" class="underline">Sriker Paturi</a>, Vice-President - <a href="https://srikar.tech" class="underline">Ananta Srikar</a>.</span>
+            President - <a href="https://srikar.tech" class="underline">Ananta Srikar</a> and Admins: Anirudh, Siddarth, Ravi, Tanvi, Aayushi and Sai Srikar.</span>
 
           <span><h3 class="font-bold">Previous Heads:</h3>
             <ul class="list-inside list-disc">
               <li><a href="https://github.com/athishrao" class="underline">Athish Rahul Rao</a> | <a href="https://github.com/FlasHRender" class="underline">Thalatam Sainath</a> | Batch - 2015</li>
               <li><a href="https://github.com/rahulkumaran" class="underline">Rahul Arulkumaran</a> | Batch - 2016</li>
               <li><a href="https://rochan-a.github.io/" class="underline">Rochan AV</a> | <a href="https://icecereal.github.io/" class="underline">Raghav NS</a> | Batch - 2017</li>
+              <li><a href="https://github.com/SrikerPaturi" class="underline">Sriker Paturi</a> | Batch - 2018</li>
               <!-- <li><a href="https://github.com/SrikerPaturi" class="underline">Sriker Paturi</a> | <a href="" class="underline">Sakshi R</a> | Batch - 2018</li> -->
             </ul>
           </span>

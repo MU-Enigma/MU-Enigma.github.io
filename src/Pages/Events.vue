@@ -19,9 +19,25 @@
       <div
         v-for="i in e"
         :key="i"
-        class="flex justify-between">
+        class="flex justify-between"
+        @click="detailer = false">
         <h3 class="w-60 lg:w-auto">{{i.event}}</h3>
         <h3>{{i.date}}</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="fixed flex justify-center items-center z-50 inset-0" v-if="detailer">
+    <div class="fixed inset-0 bg-black/40 backdrop-blur-sm">
+      <button @click="detailer = false" class="absolute top-5 right-5 w-8 h-8 flex items-center justify-center text-white hover:text-white/40">
+          <svg viewBox="0 0 10 10" class="w-2.5 h-2.5 overflow-visible" aria-hidden="true">
+            <path d="M0 0L10 10M10 0L0 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+      </button>
+    </div>
+    <div class="m-8 w-full bg-slate-900 rounded-lg shadow-lg p-6 text-base font-semibold z-50">
+      <div>
+        Hello template
       </div>
     </div>
   </div>
@@ -37,7 +53,8 @@ import Footer from '../components/Footer.vue'
 export default {
   data: () => ({
     events: null,
-    upcoming: null
+    upcoming: null,
+    detailer: false
   }),
   created() {
     this.axios.get("https://raw.githubusercontent.com/MU-Enigma/MU-Enigma.github.io/jayson/events.json").then((res) => {
@@ -56,7 +73,7 @@ export default {
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 body {
-  background:#1F2937;
+  background:rgb(15 23 42);
   margin: 0;
 }
 

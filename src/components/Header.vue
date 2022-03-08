@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between items-center px-8 py-5 z-40" :class="{'sticky -top-0 backdrop-filter backdrop-blur nav-scroll-bg': !overflow, 'fixed w-screen': overflow}">
+  <header class="flex justify-between items-center px-8 py-5 z-40 bg-black/20" :class="{'sticky -top-0 backdrop-filter backdrop-blur nav-scroll-bg': !overflow, 'fixed w-screen': overflow}">
     <a href="/">
       <img src="./assets/enigma.svg" class="lg:w-auto w-6 select-none" />
     </a>
@@ -56,7 +56,6 @@ export default {
 
 <style>
 header {
-  background: #111827;
   font-family: 'Roboto Mono', monospace;
 }
 

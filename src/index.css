@@ -5,7 +5,7 @@
 @layer utilities {
   @variants hover{
     .text-accent {
-      color: #20AD46;
+      color: #5865F2;
     }
   }
 }

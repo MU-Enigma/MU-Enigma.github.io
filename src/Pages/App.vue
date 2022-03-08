@@ -25,7 +25,7 @@ import Footer from '../components/Footer.vue'
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 body {
-  background: url("./assets/landing_bin.svg") #1F2937;
+  background: url("./assets/landing_bin.svg") rgb(15 23 42);
   margin: 0;
 }
 

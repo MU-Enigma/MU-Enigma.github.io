@@ -1,5 +1,5 @@
 <template>
-  <footer class="flex justify-center items-center px-8 py-5">
+  <footer class="flex justify-center items-center px-8 py-5 bg-black/20 backdrop-filter backdrop-blur">
     <ul class="flex lg:flex-row flex-col items-center gap-4 lg:gap-12">
       <li class="text-accent hidden">
         <a href="mailto:engima@mahindrauniversity.edu.in">
@@ -22,7 +22,6 @@ import Social from './Social.vue'
 
 <style>
 footer {
-  background: #111827;
   font-family: 'Roboto Mono', monospace;
 }
 </style>

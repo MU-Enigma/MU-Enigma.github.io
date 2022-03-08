@@ -93,7 +93,7 @@ export default {
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 body {
-  background:#1F2937;
+  background:rgb(15 23 42);
   margin: 0;
 }
 

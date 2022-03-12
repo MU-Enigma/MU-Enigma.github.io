@@ -1,5 +1,5 @@
 <template>
-  <header class="flex justify-between items-center sticky -top-0 backdrop-filter backdrop-blur px-8 py-5 z-40 bg-black/20">
+  <header class="flex justify-between items-center sticky -top-0 px-8 py-5 z-40 bg-black/20" :class="{'backdrop-filter backdrop-blur': !overflow}">
     <a href="/">
       <img src="./assets/enigma.svg" class="lg:w-auto w-6 select-none" />
     </a>

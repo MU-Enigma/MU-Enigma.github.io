@@ -3,13 +3,13 @@
   <div class="flex flex-col gap-8 my-20 ml-10 lg:ml-44 mr-10 lg:mr-44">
     <h1 class="text-accent font-bold text-3xl">Events</h1>
 
-    <div class="flex flex-col gap-5 mt-8">
+    <!-- <div class="flex flex-col gap-5 mt-8">
       <h2 class="text-accent text-2xl font-bold">Upcoming</h2>
       <div class="flex justify-between">
         <a href="https://mu-enigma.github.io/battleship/"><h3 class="w-60 font-bold lg:w-auto">{{upcoming.event}}</h3></a>
         <h3>{{upcoming.date}}</h3>
       </div>
-    </div>
+    </div> -->
 
     <div
       v-for="e in events"

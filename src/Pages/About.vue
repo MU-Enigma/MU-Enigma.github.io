@@ -31,16 +31,22 @@
           <span>Our mission is to create a community of mentors and friends and partner with companies to provide
             the best resources for students to explore computer science and software. We hope you’ll join us during
             the school year and join our community! If you want to learn more, feel free to message this year’s Heads:
-              <ul>
-                <li><span class="font-bold">President</span> - <a href="https://github.com/FloareDor" class="underline">Sai Ravi Teja</a></li>
-                <li><span class="font-bold">Vice President</span> - <a href="https://github.com/AndroBuddy" class="underline">Anirudh Chimpidi</a></li>
-              </ul>
-            </span>
+            <ul>
+              <li><span class="font-bold">President</span> - <a href="https://github.com/FloareDor"
+                  class="underline">Sai Ravi Teja</a></li>
+              <li><span class="font-bold">Vice President</span> - <a href="https://github.com/AndroBuddy"
+                  class="underline">Anirudh Chimpidi</a></li>
+              <li><span class="font-bold">Secretary</span> - Dhatri</li>
+              <li><span class="font-bold">Vice Secretary</span> - Sai Srikar</li>
+              <li><span class="font-bold">Head of Technical</span> - Siddarth</li>
+              <li><span class="font-bold">Head of Logistics</span> - Tanvi</li>
+            </ul>
+          </span>
 
           <span>
             <h3 class="font-bold">Previous Heads:</h3>
             <ul class="list-inside list-disc">
-              <li><a href="https://github.com/AnantaSrikar" class="underline">Ananta Srikar</a> | Batch - 2019</li>
+              <li><a href="https://srikar.tech" class="underline">Ananta Srikar</a> | Batch - 2019</li>
               <li><a href="https://github.com/SrikerPaturi" class="underline">Sriker Paturi</a> | Batch - 2018</li>
               <li><a href="https://rochan-a.github.io/" class="underline">Rochan AV</a> | <a
                   href="https://icecereal.github.io/" class="underline">Raghav NS</a> | Batch - 2017</li>

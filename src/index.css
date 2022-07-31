@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 @layer utilities {
-  @variants hover{
-    .text-accent {
-      color: #5865F2;
-    }
+  .text-accent {
+    color: #5865F2;
   }
 }

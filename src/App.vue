@@ -11,12 +11,10 @@ import Footer from './components/Footer.vue'
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 body {
   background-color: rgb(15 23 42);
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono';
   margin: 0;
 }
 

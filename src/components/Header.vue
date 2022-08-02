@@ -1,9 +1,9 @@
 <template>
   <header class="flex justify-between items-center sticky -top-0 px-8 py-5 z-40 bg-black/20"
     :class="{'backdrop-filter backdrop-blur': !overflow}">
-    <a href="/">
+    <router-link to="/">
       <img src="./assets/enigma.svg" class="lg:w-auto w-6 select-none" />
-    </a>
+    </router-link>
     <ul class="lg:flex hidden gap-6">
       <li class="hover:text-accent transition ease-in-out duration-300"
         :class="{'text-accent': $router.currentRoute.value.name == 'home'}">
@@ -11,18 +11,19 @@
       </li>
       <li class="hover:text-accent transition ease-in-out duration-300"
         :class="{'text-accent': $router.currentRoute.value.name == 'about'}">
-        <router-link to="/about/">About</router-link>
+        <router-link to="/about">About</router-link>
       </li>
-      <li class="hover:text-accent transition ease-in-out duration-300">
-        <a href="/blogs">Blog</a>
+      <li class="hover:text-accent transition ease-in-out duration-300"
+        :class="{'text-accent': $router.currentRoute.value.name == 'blog-list' || $router.currentRoute.value.name == 'post'}">
+        <router-link to="/blogs">Blogs</router-link>
       </li>
       <li class="hover:text-accent transition ease-in-out duration-300"
         :class="{'text-accent': $router.currentRoute.value.name == 'events'}">
-        <router-link to="/events/">Events</router-link>
+        <router-link to="/events">Events</router-link>
       </li>
       <li class="hover:text-accent transition ease-in-out duration-300"
         :class="{'text-accent': $router.currentRoute.value.name == 'gallery'}">
-        <router-link to="/gallery/">Gallery</router-link>
+        <router-link to="/gallery">Gallery</router-link>
       </li>
     </ul>
     <div class="ml-2 -my-1 lg:hidden">
@@ -51,18 +52,19 @@
         </li>
         <li class="hover:text-accent transition ease-in-out duration-300"
           :class="{'text-accent': $router.currentRoute.value.name == 'about'}">
-          <router-link to="/about/">About</router-link>
+          <router-link to="/about">About</router-link>
         </li>
-        <li class="hover:text-accent transition ease-in-out duration-300">
-          <a href="/blogs">Blog</a>
+        <li class="hover:text-accent transition ease-in-out duration-300"
+          :class="{ 'text-accent': $router.currentRoute.value.name == 'blog-list' || $router.currentRoute.value.name == 'post' }">
+          <router-link to="/blogs">Blogs</router-link>
         </li>
         <li class="hover:text-accent transition ease-in-out duration-300"
           :class="{'text-accent': $router.currentRoute.value.name == 'events'}">
-          <router-link to="/events/">Events</router-link>
+          <router-link to="/events">Events</router-link>
         </li>
         <li class="hover:text-accent transition ease-in-out duration-300"
           :class="{'text-accent': $router.currentRoute.value.name == 'gallery'}">
-          <router-link to="/gallery/">Gallery</router-link>
+          <router-link to="/gallery">Gallery</router-link>
         </li>
       </ul>
     </div>
@@ -73,9 +75,10 @@
 export default {
   data() {
     return {
-      overflow: false
+      overflow: false,
+      selected: ''
     }
-  }
+  },
 }
 </script>
 

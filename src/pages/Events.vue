@@ -8,7 +8,7 @@
         <h3 class="text-2xl capitalize font-bold">{{ event.year }}</h3>
         <div v-for="i in event.list" :key="i" class="flex justify-between">
           <h3 class="w-60 lg:w-auto">{{ i.event }}</h3>
-          <h3 class="w-60 lg:w-auto">{{ i.date }}</h3>
+          <h3>{{ i.date }}</h3>
         </div>
       </div>
     </section>
@@ -17,7 +17,7 @@
       <h3 class="text-2xl capitalize font-bold">{{ event.year }}</h3>
       <div v-for="i in event.list" :key="i" class="flex justify-between">
         <h3 class="w-60 lg:w-auto">{{ i.event }}</h3>
-        <h3 class="w-60 lg:w-auto">{{ i.date }}</h3>
+        <h3>{{ i.date }}</h3>
       </div>
     </div>
   </div>

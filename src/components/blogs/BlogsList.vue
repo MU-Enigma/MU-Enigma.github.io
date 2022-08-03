@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col min-h-screen gap-8 my-20 ml-10 lg:ml-44 mr-10 lg:mr-44">
+  <div class="flex flex-col min-h-screen gap-10 my-20 ml-10 lg:ml-44 mr-10 lg:mr-44">
     <h1 class="text-accent font-bold text-3xl">Blogs</h1>
-    <div class="flex flex-col gap-5 mt-8" v-for="y in blogs" :key="y.year">
+    <div class="flex flex-col gap-4" v-for="y in blogs" :key="y.year">
       <h2 class="text-2xl font-bold">{{ y.year }}</h2>
       <router-link class="flex justify-between" v-for="post in y.posts" :key="post.post" :to="`/blogs/${post.basename}`">
         <h3 class="w-60 lg:w-auto">{{ post.title }}</h3>

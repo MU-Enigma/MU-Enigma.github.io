@@ -1,10 +1,10 @@
 <template>
-  <div class="my-20 ml-10 lg:ml-44 mr-10 lg:mr-44">
-    <h1 class="text-accent font-bold text-4xl  uppercase">About</h1>
+  <div id="about" class="flex flex-col gap-10 my-20 ml-10 lg:ml-44 mr-10 lg:mr-44">
+    <h1 class="text-accent font-bold text-3xl">About</h1>
     <div class="flex flex-col gap-14">
-      <div class="flex flex-col gap-6 mt-4">
+      <div class="flex flex-col gap-6">
         <h2 class="text-2xl">Know us</h2>
-        <h2 class="flex flex-col gap-4 font-thin text-justify">
+        <h2 class="flex flex-col gap-4 text-white/80 font-thin">
           <span>The Computer Science Club at <a href="https://www.mahindrauniversity.edu.in/" class="underline">Mahindra
               University</a> is a student-run organization affiliated
             with the Computer Science and Engineering Department. It provides learning, networking and career
@@ -24,9 +24,9 @@
         </h2>
       </div>
 
-      <div class="flex flex-col gap-6 mt-4">
+      <div class="flex flex-col gap-6">
         <h2 class="text-2xl">Our mission</h2>
-        <h2 class="flex flex-col gap-4 font-thin text-justify">
+        <h2 class="flex flex-col gap-4 text-white/80 font-thin">
           <span>Our mission is to create a community of mentors and friends and partner with companies to provide
             the best resources for students to explore computer science and software. We hope you’ll join us during
             the school year and join our community! If you want to learn more, feel free to message this year’s Heads:
@@ -57,9 +57,9 @@
         </h2>
       </div>
 
-      <div class="flex flex-col gap-6 mt-4">
+      <div class="flex flex-col gap-6">
         <h2 class="text-2xl">Sounds interesting?</h2>
-        <h2 class="flex flex-col gap-4 font-thin text-justify">
+        <h2 class="flex flex-col gap-4 font-thin text-white/80">
           <span>We have a Discord server for general CS-related questions and discussion. If you want to reach out
             to alumni, ask curriculum related questions, or talk about rad hackathon projects, please join! Sign up <a
               href="https://discord.gg/5eJwmkV" class="underline">here</a>.</span>
@@ -76,8 +76,11 @@
   </div>
 </template>
 
-<style>
-#app {
-  font-family: 'Nunito', sans-serif;
+<script>
+export default {
+  created() {
+    window.scrollTo(0, 0)
+  }
 }
-</style>
+</script>
+

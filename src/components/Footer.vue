@@ -9,7 +9,7 @@
           </div>
         </a>
       </li>
-      <li class="text-accent">Copyright © 2021 ENIGMA CS CLUB</li>
+      <li class="text-accent">Copyright © 2021-22 ENIGMA CS CLUB</li>
       <li>Made with 🖥️ by Enigma</li>
       <li><Social /></li>
     </ul>

@@ -1,28 +1,23 @@
 <template>
-  <header class="flex justify-between items-center sticky -top-0 px-8 py-5 z-40 bg-black/20"
+  <header class="flex justify-between items-center sticky -top-0 px-6 py-5 z-40 bg-black/20"
     :class="{'backdrop-filter backdrop-blur': !overflow}">
     <router-link to="/">
-      <img src="./assets/enigma.svg" class="lg:w-auto w-6 select-none" />
+      <img src="./assets/enigma.svg" class="lg:w-12 w-8 select-none" />
     </router-link>
     <ul class="lg:flex hidden gap-6">
-      <li class="hover:text-accent transition ease-in-out duration-300"
-        :class="{'text-accent': $router.currentRoute.value.name == 'home'}">
+      <li class="hover:text-accent transition ease-in-out duration-300">
         <router-link to="/">Home</router-link>
       </li>
-      <li class="hover:text-accent transition ease-in-out duration-300"
-        :class="{'text-accent': $router.currentRoute.value.name == 'about'}">
+      <li class="hover:text-accent transition ease-in-out duration-300">
         <router-link to="/about">About</router-link>
       </li>
-      <li class="hover:text-accent transition ease-in-out duration-300"
-        :class="{'text-accent': $router.currentRoute.value.name == 'blog-list' || $router.currentRoute.value.name == 'post'}">
+      <li class="hover:text-accent transition ease-in-out duration-300">
         <router-link to="/blogs">Blogs</router-link>
       </li>
-      <li class="hover:text-accent transition ease-in-out duration-300"
-        :class="{'text-accent': $router.currentRoute.value.name == 'events'}">
+      <li class="hover:text-accent transition ease-in-out duration-300">
         <router-link to="/events">Events</router-link>
       </li>
-      <li class="hover:text-accent transition ease-in-out duration-300"
-        :class="{'text-accent': $router.currentRoute.value.name == 'gallery'}">
+      <li class="hover:text-accent transition ease-in-out duration-300">
         <router-link to="/gallery">Gallery</router-link>
       </li>
     </ul>
@@ -46,24 +41,19 @@
         </svg>
       </button>
       <ul class="flex flex-col lg:hidden gap-6">
-        <li class="hover:text-accent transition ease-in-out duration-300"
-          :class="{'text-accent': $router.currentRoute.value.name == 'home'}">
+        <li class="hover:text-accent transition ease-in-out duration-300">
           <router-link to="/">Home</router-link>
         </li>
-        <li class="hover:text-accent transition ease-in-out duration-300"
-          :class="{'text-accent': $router.currentRoute.value.name == 'about'}">
+        <li class="hover:text-accent transition ease-in-out duration-300">
           <router-link to="/about">About</router-link>
         </li>
-        <li class="hover:text-accent transition ease-in-out duration-300"
-          :class="{ 'text-accent': $router.currentRoute.value.name == 'blog-list' || $router.currentRoute.value.name == 'post' }">
+        <li class="hover:text-accent transition ease-in-out duration-300">
           <router-link to="/blogs">Blogs</router-link>
         </li>
-        <li class="hover:text-accent transition ease-in-out duration-300"
-          :class="{'text-accent': $router.currentRoute.value.name == 'events'}">
+        <li class="hover:text-accent transition ease-in-out duration-300">
           <router-link to="/events">Events</router-link>
         </li>
-        <li class="hover:text-accent transition ease-in-out duration-300"
-          :class="{'text-accent': $router.currentRoute.value.name == 'gallery'}">
+        <li class="hover:text-accent transition ease-in-out duration-300">
           <router-link to="/gallery">Gallery</router-link>
         </li>
       </ul>
@@ -91,5 +81,9 @@ header {
   background: rgba(0, 0, 0, 0.64);
   margin-top: 64px;
   height: calc(100vh - 64px);
+}
+
+li a.router-link-exact-active {
+  color: #5865F2;
 }
 </style>

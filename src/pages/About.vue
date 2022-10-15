@@ -66,8 +66,7 @@
             to alumni, ask curriculum related questions, or talk about rad hackathon projects, please join! Sign up <a
               href="https://discord.gg/5eJwmkV" class="underline">here</a>.</span>
 
-          <span>While you’re here, be sure to check out our <a href="" class="underline">past projects</a> and other <a
-              href="" class="underline">events / blog posts</a> we have coming up.</span>
+          <span>While you’re here, be sure to check out our <router-link to="/events" class="underline">past and current events</router-link> and <router-link to="/blogs" class="underline">blog posts</router-link> we have coming up.</span>
 
           <span>Finally, if you have any suggestions for cool things for the club to do (whether for career development
             or just

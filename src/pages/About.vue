@@ -29,16 +29,18 @@
         <h2 class="flex flex-col gap-4 text-white/80 font-thin">
           <span>Our mission is to create a community of mentors and friends and partner with companies to provide
             the best resources for students to explore computer science and software. We hope you’ll join us during
-            the school year and join our community! If you want to learn more, feel free to message this year’s Heads:
+            the school year and join our community!<br/><br/>
+            If you want to learn more, feel free to message this year’s Heads:
             <ul>
               <li><span class="font-bold">President</span> - <a href="https://github.com/FloareDor"
                   class="underline">Sai Ravi Teja</a></li>
               <li><span class="font-bold">Vice President</span> - <a href="https://github.com/AndroBuddy"
                   class="underline">Anirudh Chimpidi</a></li>
+              <li><span class="font-bold">Associate Vice President</span> - <a href="https://github.com/siddarthreddygsr"
+                  class="underline">Siddarth</a></li>
               <li><span class="font-bold">Secretary</span> - Dhatri</li>
               <li><span class="font-bold">Vice Secretary</span> - Sai Srikar</li>
-              <li><span class="font-bold">Head of Technical</span> - Siddarth</li>
-              <li><span class="font-bold">Head of Logistics</span> - Tanvi</li>
+              <li><span class="font-bold">Head of Organizing Commitee</span> - Tanvi</li>
             </ul>
           </span>
 

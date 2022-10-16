@@ -13,7 +13,17 @@
       </div>
     </section>
 
-    <div v-for="event in eventsList[1].events" :key="event" class="flex flex-col gap-4">
+    <section v-if="eventsList[1].events[0].list[0].event" class="flex flex-col gap-6 bg-black/20 rounded-xl p-8">
+      <h2 class="text-2xl font-bold capitalize text-blue-500">(!) Ongoing events</h2>
+      <div v-for="event in eventsList[1].events" :key="event" class="flex flex-col gap-1">
+        <div v-for="i in event.list" :key="i" class="flex justify-between text-lg">
+          <h3 class="w-60 lg:w-auto">{{ i.event }}</h3>
+          <h3>{{ i.date }}</h3>
+        </div>
+      </div>
+    </section>
+
+    <div v-for="event in eventsList[2].events" :key="event" class="flex flex-col gap-4">
       <h3 class="text-2xl capitalize font-bold">{{ event.year }}</h3>
       <div v-for="i in event.list" :key="i" class="flex justify-between">
         <h3 class="w-60 lg:w-auto">{{ i.event }}</h3>
